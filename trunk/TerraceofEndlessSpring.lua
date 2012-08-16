@@ -9,7 +9,7 @@ local zone = "Terrace of Endless Spring"
 GridStatusRaidDebuff:BossName(zone, 10, "Protector Kaolan")
 GridStatusRaidDebuff:Debuff(zone, 117519, 11, 6, 6) --Touch of Sha
 GridStatusRaidDebuff:Debuff(zone, 111850, 12, 3, 3) --Lightning Prison: Targeted
-GridStatusRaidDebuff:Debuff(zone, 117436, 12, 3, 3) --Lightning Prison: Stunned
+GridStatusRaidDebuff:Debuff(zone, 117436, 13, 3, 3) --Lightning Prison: Stunned
 GridStatusRaidDebuff:Debuff(zone, 118191, 14, 6, 6, true, true) --Corrupted Essence
 GridStatusRaidDebuff:Debuff(zone, 117986, 15, 6, 6, true, true) --Defiled Ground: Stacks
 
@@ -41,3 +41,4 @@ GridStatusRaidDebuff:Debuff(zone, 120394, 47, 6, 6) --Eternal Darkness
 GridStatusRaidDebuff:Debuff(zone, 129189, 48, 6, 6) --Sha Globe
 GridStatusRaidDebuff:Debuff(zone, 119086, 49, 4, 4) --Penetrating Bolt
 GridStatusRaidDebuff:Debuff(zone, 119775, 50, 6, 6) --Reaching Attack
+
