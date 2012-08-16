@@ -52,3 +52,4 @@ GridStatusRaidDebuff:Debuff(zone, 124863, 70, 3, 3) --Visions of Demise
 GridStatusRaidDebuff:Debuff(zone, 124862, 71, 3, 6) --Visions of Demise: Target
 GridStatusRaidDebuff:Debuff(zone, 123845, 72, 3, 6) --Heart of Fear: Chosen
 GridStatusRaidDebuff:Debuff(zone, 123846, 73, 3, 6) --Heart of Fear: Lure
+
