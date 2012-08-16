@@ -4,8 +4,8 @@ local zone = "Mogu'shan Vaults"
 --true, true is for stackable
 
 --Trash
-GridStatusRaidDebuff:Debuff(zone, 118562, 70, 6, 6) --Petrified
-GridStatusRaidDebuff:Debuff(zone, 116596, 71, 6, 6) --Smoke Bomb
+GridStatusRaidDebuff:Debuff(zone, 118562, 1, 6, 6) --Petrified
+GridStatusRaidDebuff:Debuff(zone, 116596, 1, 6, 6) --Smoke Bomb
 
 --The Stone Guard
 GridStatusRaidDebuff:BossName(zone, 10, "The Stone Guard")
