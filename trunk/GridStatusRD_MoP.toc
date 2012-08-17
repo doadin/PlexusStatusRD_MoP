@@ -9,5 +9,5 @@
 MogushanVaults.lua
 HeartOfFear.lua
 TerraceofEndlessSpring.lua
-# Outdoor.lua
+ShaofAnger.lua
 
