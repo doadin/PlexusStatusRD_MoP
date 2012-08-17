@@ -5,7 +5,7 @@ local zone = "Mogu'shan Vaults"
 
 --Trash
 GridStatusRaidDebuff:Debuff(zone, 118562, 1, 6, 6) --Petrified
-GridStatusRaidDebuff:Debuff(zone, 116596, 1, 6, 6) --Smoke Bomb
+GridStatusRaidDebuff:Debuff(zone, 116596, 2, 6, 6) --Smoke Bomb
 
 --The Stone Guard
 GridStatusRaidDebuff:BossName(zone, 10, "The Stone Guard")
@@ -15,7 +15,7 @@ GridStatusRaidDebuff:Debuff(zone, 130774, 13, 6, 6) --Amethyst Pool
 GridStatusRaidDebuff:Debuff(zone, 116038, 14, 6, 6, true, true) --Jasper Petrification: stacks [Note: Do we care? Not sure yet. Didn't get to test heroic]
 GridStatusRaidDebuff:Debuff(zone, 115861, 15, 6, 6, true, true) --Cobalt Petrification: stacks [Note: Do we care? Not sure yet. Didn't get to test heroic]
 GridStatusRaidDebuff:Debuff(zone, 116060, 16, 6, 6, true, true) --Amethyst Petrification: stacks [Note: Do we care? Not sure yet. Didn't get to test heroic]
-GridStatusRaidDebuff:Debuff(zone, 116281, 17, 5, 5) --Cobalt Mine Blast (dispellable)
+GridStatusRaidDebuff:Debuff(zone, 116281, 17, 3, 3) --Cobalt Mine Blast (dispellable)
 GridStatusRaidDebuff:Debuff(zone, 125206, 18, 6, 6) --Rend Flesh: Tank only
 GridStatusRaidDebuff:Debuff(zone, 116008, 19, 6, 6, true, true) --Jade Petrification: stacks [Note: Do we care? Not sure yet. Didn't get to test heroic]
 
@@ -49,7 +49,7 @@ GridStatusRaidDebuff:Debuff(zone, 118163, 55, 3, 3) --Robbed Blind
 --Elegon
 GridStatusRaidDebuff:BossName(zone, 60, "Elegon")
 GridStatusRaidDebuff:Debuff(zone, 117878, 61, 6, 6, true, true) --Overcharged
-GridStatusRaidDebuff:Debuff(zone, 117949, 62, 5, 5) --Closed circuit (dispellable)
+GridStatusRaidDebuff:Debuff(zone, 117949, 62, 3, 3) --Closed circuit (dispellable)
 GridStatusRaidDebuff:Debuff(zone, 117945, 63, 3, 3) --Arcing Energy
 
 --Will of the Emperor
