@@ -1,0 +1,7 @@
+package-as: GridStatusRD_MoP
+
+license-output: GPL.txt
+
+ignore:
+ - .pkgmeta
+
