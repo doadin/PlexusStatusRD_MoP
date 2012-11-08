@@ -8,7 +8,7 @@ local zone = "Mogu'shan Vaults"
 -- Dais of Conquerors
 -- Stone Guard trash
 -- Enormous Stone Quilen
-GridStatusRaidDebuff:Debuff(zone, 125092, 1, 6, 6) --Petrification
+GridStatusRaidDebuff:Debuff(zone, 125092, 1, 6, 6, true, true) --Petrification
 -- Stone Quilen
 GridStatusRaidDebuff:Debuff(zone, 116970, 1, 1, 1, true, true) --Sundering Bite
 
@@ -30,7 +30,7 @@ GridStatusRaidDebuff:Debuff(zone, 116606, 3, 3, 3) --Troll Rush
 -- Forge of the Endless
 -- Elegon trash
 -- Mogu'shan Secret-Keeper
-GridStatusRaidDebuff:Debuff(zone, 118552, 4, 6, 6) --Flesh to Stone (dispellable)
+GridStatusRaidDebuff:Debuff(zone, 118552, 4, 6, 6, true, true) --Flesh to Stone (dispellable)
 GridStatusRaidDebuff:Debuff(zone, 118562, 4, 6, 6) --Petrified
 
 --The Stone Guard
