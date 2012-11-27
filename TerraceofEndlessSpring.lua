@@ -14,13 +14,15 @@ GridStatusRaidDebuff:Debuff(zone, 125760, 1, 5, 5, true, true) --Enveloping Dark
 
 --Protector Kaolan
 GridStatusRaidDebuff:BossName(zone, 10, "Protector Kaolan")
-GridStatusRaidDebuff:Debuff(zone, 117519, 11, 2, 2) --Touch of Sha (dot)
-GridStatusRaidDebuff:Debuff(zone, 111850, 12, 6, 6) --Lightning Prison: Targeted
-GridStatusRaidDebuff:Debuff(zone, 117436, 13, 6, 6) --Lightning Prison: Stunned
+GridStatusRaidDebuff:Debuff(zone, 117519, 11, 3, 3) --Touch of Sha (dot)
+GridStatusRaidDebuff:Debuff(zone, 111850, 12, 2, 2) --Lightning Prison: Targeted
+GridStatusRaidDebuff:Debuff(zone, 117436, 13, 2, 2) --Lightning Prison: Stunned (Dispellable)
 GridStatusRaidDebuff:Debuff(zone, 118191, 14, 5, 5, true, true) --Corrupted Essence
 GridStatusRaidDebuff:Debuff(zone, 117986, 15, 4, 4, true, true) --Defiled Ground: Stacks (tank)
 GridStatusRaidDebuff:Debuff(zone, 117235, 16, 1, 1) --Purified (buff from Corrupted Waters)
 GridStatusRaidDebuff:Debuff(zone, 117283, 17, 1, 1) --Cleansing Waters (buff from Cleansing Waters, don't dispell off players, dispel off enemy targets)
+GridStatusRaidDebuff:Debuff(zone, 117955, 18, 4, 4) --Expelled Corruption: Elite Order only
+GridStatusRaidDebuff:Debuff(zone, 117988, 19, 4, 4) --Defiled Ground (This is the spellID doing damage in logs)
 
 --Tsulong
 GridStatusRaidDebuff:BossName(zone, 20, "Tsulong")
@@ -40,7 +42,7 @@ GridStatusRaidDebuff:Debuff(zone, 123705, 32, 3, 3, true, true) --Scary Fog ?
 
 --Sha of Fear
 GridStatusRaidDebuff:BossName(zone, 40, "Sha of Fear")
-GridStatusRaidDebuff:Debuff(zone, 119414, 41, 6, 6) --Breath of Fear
+GridStatusRaidDebuff:Debuff(zone, 119414, 41, 2, 2) --Breath of Fear
 GridStatusRaidDebuff:Debuff(zone, 129147, 42, 3, 3) --Onimous Cackle
 GridStatusRaidDebuff:Debuff(zone, 119983, 43, 4, 4, true, true) --Dread Spray
 GridStatusRaidDebuff:Debuff(zone, 120669, 44, 3, 3) --Naked and Afraid
