@@ -7,6 +7,13 @@ local zone = "Heart of Fear"
 -- Imperial Vizier Zor'lok trash
 -- Sra'thik Shield Master
 GridStatusRaidDebuff:Debuff(zone, 123417, 1, 1, 1, true, true) --Dismantled Armor (armor)
+-- Kor'thik Slicer
+GridStatusRaidDebuff:Debuff(zone, 123422, 1, 1, 1) -- Arterial Bleeding (dot)
+GridStatusRaidDebuff:Debuff(zone, 123434, 1, 2, 2) -- Gouge Throat (silence)
+-- Set'thik Swiftblade
+GridStatusRaidDebuff:Debuff(zone, 123436, 1, 1, 1) -- Riposte (disarm)
+-- Set'thik Fanatic
+GridStatusRaidDebuff:Debuff(zone, 123497, 1, 1, 1) -- Gale Force Winds (slows casting)
 
 -- Blade Lord Ta'yak trash
 -- Instructor Kli'thak
@@ -79,3 +86,4 @@ GridStatusRaidDebuff:Debuff(zone, 124862, 71, 5, 5) --Visions of Demise: Target
 GridStatusRaidDebuff:Debuff(zone, 123845, 72, 5, 5) --Heart of Fear: Chosen
 GridStatusRaidDebuff:Debuff(zone, 123846, 73, 5, 5) --Heart of Fear: Lure
 GridStatusRaidDebuff:Debuff(zone, 125283, 74, 1, 1) --Sha Corruption
+
