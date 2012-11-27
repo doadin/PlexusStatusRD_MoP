@@ -21,6 +21,7 @@ GridStatusRaidDebuff:Debuff(zone, 118191, 14, 5, 5, true, true) --Corrupted Esse
 GridStatusRaidDebuff:Debuff(zone, 118091, 15, 4, 4, true, true) --Defiled Ground: Stacks
 GridStatusRaidDebuff:Debuff(zone, 117235, 16, 1, 1) --Purified (buff from Corrupted Waters)
 GridStatusRaidDebuff:Debuff(zone, 117283, 17, 1, 1) --Cleansing Waters (buff from Cleansing Waters, don't dispell off players, dispel off enemy targets)
+GridStatusRaidDebuff:Debuff(zone, 117353, 18, 3, 3, true, true) -- Overwhelming Corruption (stacking dot) - if an Elder is killed last
 
 --Tsulong
 GridStatusRaidDebuff:BossName(zone, 20, "Tsulong")
