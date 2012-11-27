@@ -36,14 +36,15 @@ GridStatusRaidDebuff:Debuff(zone, 122706, 14, 3, 3) --Noise Cancelling (AMZ)
 
 --Blade Lord Ta'yak
 GridStatusRaidDebuff:BossName(zone, 20, "Blade Lord Ta'yak")
-GridStatusRaidDebuff:Debuff(zone, 123474, 21, 1, 1, true, true) --Overwhelming Assault (tank stacks)
-GridStatusRaidDebuff:Debuff(zone, 122949, 22, 6, 6) --Unseen Strike (group up on target)
+GridStatusRaidDebuff:Debuff(zone, 123474, 21, 3, 3, true, true) --Overwhelming Assault (tank stacks)
+GridStatusRaidDebuff:Debuff(zone, 122949, 22, 1, 1) --Unseen Strike (group up on target)
 GridStatusRaidDebuff:Debuff(zone, 124783, 23, 5, 5) --Storm Unleashed
+GridStatusRaidDebuff:Debuff(zone, 123180, 24, 2, 2) --Windstep
 --GridStatusRaidDebuff:Debuff(zone, 123600, 24, 5, 5) --Storm Unleashed?
 
 --Garalon
 GridStatusRaidDebuff:BossName(zone, 30, "Garalon")
-GridStatusRaidDebuff:Debuff(zone, 122835, 31, 5, 5) --Pheromones (fixate/dot/passable)
+GridStatusRaidDebuff:Debuff(zone, 122835, 31, 4, 4) --Pheromones (fixate/dot/passable)
 GridStatusRaidDebuff:Debuff(zone, 123081, 32, 6, 6, true, true) --Pungency (Pheromones stacks)
 GridStatusRaidDebuff:Debuff(zone, 122774, 33, 2, 2) --Crush (knocked down)
 GridStatusRaidDebuff:Debuff(zone, 123423, 34, 1, 1) --Weak Points (damage increase)
@@ -51,8 +52,8 @@ GridStatusRaidDebuff:Debuff(zone, 123423, 34, 1, 1) --Weak Points (damage increa
 
 --Wind Lord Mel'jarak
 GridStatusRaidDebuff:BossName(zone, 40, "Wind Lord Mel'jarak")
-GridStatusRaidDebuff:Debuff(zone, 121881, 41, 6, 6) --Amber Prison
-GridStatusRaidDebuff:Debuff(zone, 122055, 42, 1, 1) --Residue
+GridStatusRaidDebuff:Debuff(zone, 121881, 41, 1, 1) --Amber Prison
+GridStatusRaidDebuff:Debuff(zone, 122055, 42, 6, 6) --Residue
 GridStatusRaidDebuff:Debuff(zone, 122064, 43, 3, 3, true, true) --Corrosive Resin
 
 --Amber-Shaper Un'sok
@@ -64,18 +65,17 @@ GridStatusRaidDebuff:Debuff(zone, 122784, 52, 3, 3) --Reshape Life
 --Grand Empress Shek'zeer
 GridStatusRaidDebuff:BossName(zone, 60, "Grand Empress Shek'zeer")
 GridStatusRaidDebuff:Debuff(zone, 123707, 61, 5, 5, true, true) --Eyes of the Empress (tank stacks)
-GridStatusRaidDebuff:Debuff(zone, 125390, 62, 3, 3) --Fixate
+GridStatusRaidDebuff:Debuff(zone, 125390, 62, 1, 1) --Fixate !Important!
 GridStatusRaidDebuff:Debuff(zone, 123788, 63, 5, 5) --Cry of Terror (debuff that causes AoE)
 GridStatusRaidDebuff:Debuff(zone, 124097, 64, 4, 4) --Sticky Resin
 GridStatusRaidDebuff:Debuff(zone, 123184, 65, 7, 7) --Dissonance Field (unhealable)
 --GridStatusRaidDebuff:Debuff(zone, 125824, 65, 3, 3) --Trapped!
 GridStatusRaidDebuff:Debuff(zone, 124777, 66, 4, 4) --Poison Bomb
 GridStatusRaidDebuff:Debuff(zone, 124821, 67, 3, 3) --Poison-Drenched Armor
-GridStatusRaidDebuff:Debuff(zone, 124827, 68, 1, 1) --Poison Fumes
-GridStatusRaidDebuff:Debuff(zone, 124849, 69, 6, 6) --Consuming Terror (fear, dispellable)
-GridStatusRaidDebuff:Debuff(zone, 124863, 70, 6, 6) --Visions of Demise (fear/AoE, dispellable)
-GridStatusRaidDebuff:Debuff(zone, 124862, 71, 5, 5) --Visions of Demise: Target
+--GridStatusRaidDebuff:Debuff(zone, 124827, 68, 1, 1) --Poison Fumes Is actually a buff
+GridStatusRaidDebuff:Debuff(zone, 124849, 69, 2, 2) --Consuming Terror (fear, dispellable) !Important you dispell baddies that get this!
+GridStatusRaidDebuff:Debuff(zone, 124863, 70, 1, 1) --Visions of Demise (fear/AoE, dispellable) !Very Important!
+GridStatusRaidDebuff:Debuff(zone, 124862, 71, 1, 1) --Visions of Demise: Target !Very Important!
 GridStatusRaidDebuff:Debuff(zone, 123845, 72, 5, 5) --Heart of Fear: Chosen
 GridStatusRaidDebuff:Debuff(zone, 123846, 73, 5, 5) --Heart of Fear: Lure
 GridStatusRaidDebuff:Debuff(zone, 125283, 74, 1, 1) --Sha Corruption
-
