@@ -36,7 +36,7 @@ GridStatusRaidDebuff:Debuff(zone, 125907, 6, 1, 1) --Cry Havoc
 
 --Imperial Vizier Zor'lok
 GridStatusRaidDebuff:BossName(zone, 10, "Imperial Vizier Zor'lok")
---GridStatusRaidDebuff:Debuff(zone, 122760, 11, 3, 3) --Exhale
+GridStatusRaidDebuff:Debuff(zone, 122761, 11, 4, 4) --Exhale
 GridStatusRaidDebuff:Debuff(zone, 123812, 12, 1, 1) --Pheromones of Zeal
 GridStatusRaidDebuff:Debuff(zone, 122740, 13, 6, 6) --Convert (MC)
 GridStatusRaidDebuff:Debuff(zone, 122706, 14, 3, 3) --Noise Cancelling (AMZ)
