@@ -59,9 +59,12 @@ GridStatusRaidDebuff:Debuff(zone, 123423, 34, 1, 1) --Weak Points (damage increa
 
 --Wind Lord Mel'jarak
 GridStatusRaidDebuff:BossName(zone, 40, "Wind Lord Mel'jarak")
+-- Sra-thik Amber-Trappers
 GridStatusRaidDebuff:Debuff(zone, 121881, 41, 6, 6) --Amber Prison
 GridStatusRaidDebuff:Debuff(zone, 122055, 42, 1, 1) --Residue
 GridStatusRaidDebuff:Debuff(zone, 122064, 43, 3, 3, true, true) --Corrosive Resin
+-- Kor'thik Elite Blademaster
+GridStatusRaidDebuff:Debuff(zone, 123963, 44, 7, 7) --Kor'thik Strike
 
 --Amber-Shaper Un'sok
 GridStatusRaidDebuff:BossName(zone, 50, "Amber-Shaper Un'sok")
