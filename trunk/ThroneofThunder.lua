@@ -32,11 +32,12 @@ GridStatusRaidDebuff:BossName(zone, 40, "Council of Elders")
 GridStatusRaidDebuff:Debuff(zone, 136922, 41, 6, 6, true, true) --Frostbite
 GridStatusRaidDebuff:Debuff(zone, 137084, 42, 3, 3, true, true) --Body Heat
 GridStatusRaidDebuff:Debuff(zone, 137641, 43, 6, 6) --Soul Fragment (Heroic only)
-GridStatusRaidDebuff:Debuff(zone, 137359, 44, 5, 5, true, true) --Ensnared
+GridStatusRaidDebuff:Debuff(zone, 136878, 44, 5, 5, true, true) --Ensnared
 GridStatusRaidDebuff:Debuff(zone, 136857, 45, 6, 6) --Entrapped (Dispell)
-GridStatusRaidDebuff:Debuff(zone, 137650, 46, 4, 4, true, true) --Shadowed Soul
+GridStatusRaidDebuff:Debuff(zone, 137650, 46, 5, 5, true, true) --Shadowed Soul
 GridStatusRaidDebuff:Debuff(zone, 137359, 47, 6, 6) --Shadowed Loa Spirit fixate target
 GridStatusRaidDebuff:Debuff(zone, 137972, 48, 6, 6) --Twisted Fate (Heroic only)
+GridStatusRaidDebuff:Debuff(zone, 136860, 49, 5, 5) --Quicksand
 
 --Tortos
 GridStatusRaidDebuff:BossName(zone, 50, "Tortos")
@@ -44,6 +45,7 @@ GridStatusRaidDebuff:Debuff(zone, 134030, 51, 6, 6) --Kick Shell
 GridStatusRaidDebuff:Debuff(zone, 134920, 52, 6, 6) --Quake Stomp
 GridStatusRaidDebuff:Debuff(zone, 136751, 53, 6, 6) --Sonic Screech
 GridStatusRaidDebuff:Debuff(zone, 136753, 54, 2, 2) --Slashing Talons (tank only)
+GridStatusRaidDebuff:Debuff(zone, 137633, 55, 5, 5) --Crystal Shell (heroic only)
 
 --Megaera
 GridStatusRaidDebuff:BossName(zone, 60, "Megaera")
@@ -55,6 +57,8 @@ GridStatusRaidDebuff:Debuff(zone, 139909, 65, 5, 5) --Icy Ground
 GridStatusRaidDebuff:Debuff(zone, 137746, 66, 6, 6) --Consuming Magic
 GridStatusRaidDebuff:Debuff(zone, 139843, 67, 4, 4) --Artic Freeze
 GridStatusRaidDebuff:Debuff(zone, 139840, 68, 4, 4) --Rot Armor
+GridStatusRaidDebuff:Debuff(zone, 140179, 69, 6, 6) --Suppression (stun)
+
 
 --Ji-Kun
 GridStatusRaidDebuff:BossName(zone, 70, "Ji-Kun")
