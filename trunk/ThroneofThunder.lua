@@ -58,21 +58,26 @@ GridStatusRaidDebuff:Debuff(zone, 139840, 68, 4, 4) --Rot Armor
 
 --Ji-Kun
 GridStatusRaidDebuff:BossName(zone, 70, "Ji-Kun")
+GridStatusRaidDebuff:Debuff(zone, 138309, 71, 4, 4, true, true) --Slimed
+GridStatusRaidDebuff:Debuff(zone, 138319, 72, 5, 5) --Feed Pool
+GridStatusRaidDebuff:Debuff(zone, 140571, 73, 3, 3) --Feed Pool
 
 --Durumu the Forgotten
 GridStatusRaidDebuff:BossName(zone, 80, "Durumu")
 GridStatusRaidDebuff:Debuff(zone, 133768, 81, 2, 2) --Arterial Cut (tank only)
 GridStatusRaidDebuff:Debuff(zone, 133767, 82, 2, 2, true, true) --Serious Wound (Tank only)
-GridStatusRaidDebuff:Debuff(zone, 136932, 83, 6, 6) --Force of Will (#1 most important in this fight)
-GridStatusRaidDebuff:Debuff(zone, 134122, 84, 6, 6) --Blue Beam
-GridStatusRaidDebuff:Debuff(zone, 134123, 85, 6, 6) --Red Beam
-GridStatusRaidDebuff:Debuff(zone, 134124, 86, 6, 6) --Yellow Beam
+GridStatusRaidDebuff:Debuff(zone, 136932, 83, 6, 6) --Force of Will
+GridStatusRaidDebuff:Debuff(zone, 134122, 84, 6, 6) --Blue Beam Precast (maybe this works?)
+GridStatusRaidDebuff:Debuff(zone, 134123, 85, 6, 6) --Red Beam Precast
+GridStatusRaidDebuff:Debuff(zone, 134124, 86, 6, 6) --Yellow Beam Precast
 GridStatusRaidDebuff:Debuff(zone, 133795, 87, 4, 4) --Life Drain
 GridStatusRaidDebuff:Debuff(zone, 133597, 88, 6, 6) --Dark Parasite
 GridStatusRaidDebuff:Debuff(zone, 133732, 89, 5, 5, true, true) --Infrared Light (the stacking red debuff)
-GridStatusRaidDebuff:Debuff(zone, 133675, 90, 5, 5, true, true) --Blue Rays (the stacking blue debuff)
-GridStatusRaidDebuff:Debuff(zone, 133737, 91, 5, 5) --Bright Light (one of the yellow debuffs)  
-GridStatusRaidDebuff:Debuff(zone, 133738, 92, 5, 5, true, true) --Bright Light (the stacking yellow debuff)
+GridStatusRaidDebuff:Debuff(zone, 133677, 90, 5, 5, true, true) --Blue Rays (the stacking blue debuff)  
+GridStatusRaidDebuff:Debuff(zone, 133738, 91, 5, 5, true, true) --Bright Light (the stacking yellow debuff)
+GridStatusRaidDebuff:Debuff(zone, 133737, 92, 6, 6) --Bright Light (The one that says you are actually in a beam)
+GridStatusRaidDebuff:Debuff(zone, 133675, 93, 6, 6) --Blue Rays (The one that says you are actually in a beam)
+GridStatusRaidDebuff:Debuff(zone, 134626, 94, 6, 6) --Lingering Gaze
 
 --Primordius
 --**Setting indivdual player mutations as low level because its up to them to know when to stop at 5. But as a dispeller I can help a potential tunneler in the raid by knowing)**
