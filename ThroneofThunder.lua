@@ -26,6 +26,7 @@ GridStatusRaidDebuff:Debuff(zone, 136573, 28, 6, 6) --Frozen Bolt (Debuff used b
 GridStatusRaidDebuff:Debuff(zone, 136512, 29, 5, 5) --Hex of Confusion
 GridStatusRaidDebuff:Debuff(zone, 136719, 30, 6, 6) --Blazing Sunlight
 GridStatusRaidDebuff:Debuff(zone, 136654, 31, 4, 4) --Rending Charge
+GridStatusRaidDebuff:Debuff(zone, 140946, 32, 4, 4) --Dire Fixation (Heroic Only)
 
 --Council of Elders
 GridStatusRaidDebuff:BossName(zone, 40, "Council of Elders")
@@ -65,6 +66,7 @@ GridStatusRaidDebuff:BossName(zone, 70, "Ji-Kun")
 GridStatusRaidDebuff:Debuff(zone, 138309, 71, 4, 4, true, true) --Slimed
 GridStatusRaidDebuff:Debuff(zone, 138319, 72, 5, 5) --Feed Pool
 GridStatusRaidDebuff:Debuff(zone, 140571, 73, 3, 3) --Feed Pool
+GridStatusRaidDebuff:Debuff(zone, 134372, 73, 3, 3) --Screech
 
 --Durumu the Forgotten
 GridStatusRaidDebuff:BossName(zone, 80, "Durumu")
@@ -119,12 +121,13 @@ GridStatusRaidDebuff:Debuff(zone, 137669, 137, 3, 3) --Storm Cloud
 GridStatusRaidDebuff:Debuff(zone, 137668, 138, 5, 5, true, true) --Burning Cinders
 GridStatusRaidDebuff:Debuff(zone, 137654, 139, 5, 5) --Rushing Winds 
 GridStatusRaidDebuff:Debuff(zone, 136577, 140, 4, 4) --Wind Storm
+GridStatusRaidDebuff:Debuff(zone, 136192, 141, 4, 4) --Lightning Storm
 
 --Twin Consorts
 GridStatusRaidDebuff:BossName(zone, 150, "Twin Consorts"))
-GridStatusRaidDebuff:Debuff(zone, 137440, 151, 2, 2) --Icy Shadows (tank only)
+GridStatusRaidDebuff:Debuff(zone, 137440, 151, 6, 6) --Icy Shadows
 GridStatusRaidDebuff:Debuff(zone, 137417, 152, 6, 6) --Flames of Passion
-GridStatusRaidDebuff:Debuff(zone, 138306, 153, 6, 6) --Serpent's Vitality
+GridStatusRaidDebuff:Debuff(zone, 138306, 153, 5, 5) --Serpent's Vitality
 GridStatusRaidDebuff:Debuff(zone, 137408, 154, 2, 2) --Fan of Flames (tank only)
 GridStatusRaidDebuff:Debuff(zone, 137360, 155, 6, 6) --Corrupted Healing (tanks and healers only?)
 GridStatusRaidDebuff:Debuff(zone, 137375, 156, 3, 3) --Beast of Nightmares
