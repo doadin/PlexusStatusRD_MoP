@@ -1,5 +1,13 @@
+As of 5.2, DebuffId is the new method.
+
+ZoneIds can be found here: http://www.wowpedia.org/MapID
+
+GridStatusRaidDebuff:DebuffId(zoneid, first, second, icon_priority, color_priority, timer, stackable, color, default_disable, noicon)
+
+Debuff is deprecated and dependent on libbabble-zone.  Libbabble-zone was deprecated by its author in 5.2.
 
 GridStatusRaidDebuff:Debuff(en_zone, first, second, icon_priority, color_priority, timer, stackable, color, default_disable, noicon)
+
 zone - name of zone
 First - SpellId
 Second - Order (the order they show up when listed)
