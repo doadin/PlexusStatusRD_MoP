@@ -10,6 +10,27 @@ end
 --true, true is for stackable
 
 --Trash
+-- Horridon
+-- Stormbringer Draz'kil
+GridStatusRaidDebuff:DebuffId(zoneid, 139900, 1, 1, 1) --Stormcloud
+-- Tormented Spirit
+GridStatusRaidDebuff:DebuffId(zoneid, 139550, 1, 1, 1, true, true) --Torment
+-- Horridon & Council of Elders
+-- Ancient Python
+GridStatusRaidDebuff:DebuffId(zoneid, 139888, 1, 1, 1, true, true) --Ancient Venom
+-- Tortos
+-- Greater Cave Bat
+GridStatusRaidDebuff:DebuffId(zoneid, 136751, 1, 1, 1) --Sonic Screech
+GridStatusRaidDebuff:DebuffId(zoneid, 136753, 1, 1, 1, true, true) --Slashing Talons
+-- Magaera
+-- Mist Lurker
+GridStatusRaidDebuff:DebuffId(zoneid, 140686, 1, 1, 1) --Corrosive Breath
+GridStatusRaidDebuff:DebuffId(zoneid, 140682, 1, 1, 1) --Chokin Mists
+-- Shale Spider
+GridStatusRaidDebuff:DebuffId(zoneid, 140616, 1, 1, 1) --Shale Shards
+-- Dark Animus
+-- Archritualist Kelada
+GridStatusRaidDebuff:DebuffId(zoneid, 139356, 1, 1, 1) --Extermination Beam
 
 -- Jin'rokh the Breaker
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Jin'rokh the Breaker")
@@ -22,16 +43,16 @@ GridStatusRaidDebuff:DebuffId(zoneid, 137371, 15, 2, 2) --Thundering Throw (tank
 --Horridon
 GridStatusRaidDebuff:BossNameId(zoneid, 20, "Horridon")
 GridStatusRaidDebuff:DebuffId(zoneid, 136769, 21, 6, 6) --Charge
-GridStatusRaidDebuff:DebuffId(zoneid, 136767, 22, 6, 6, true, true) --Triple Puncture (tanks only)
-GridStatusRaidDebuff:DebuffId(zoneid, 136708, 23, 3, 3) --Stone Gaze
+GridStatusRaidDebuff:DebuffId(zoneid, 136767, 22, 2, 2, true, true) --Triple Puncture (tanks only)
+GridStatusRaidDebuff:DebuffId(zoneid, 136708, 23, 6, 6) --Stone Gaze (stun, dispellable)
 GridStatusRaidDebuff:DebuffId(zoneid, 136723, 24, 5, 5) --Sand Trap
 GridStatusRaidDebuff:DebuffId(zoneid, 136587, 25, 5, 5, true, true) --Venom Bolt Volley (dispellable)
 GridStatusRaidDebuff:DebuffId(zoneid, 136710, 26, 5, 5, true, true) --Deadly Plague (disease)
 GridStatusRaidDebuff:DebuffId(zoneid, 136670, 27, 4, 4) --Mortal Strike
-GridStatusRaidDebuff:DebuffId(zoneid, 136573, 28, 6, 6) --Frozen Bolt (DebuffId used by frozen orb)
-GridStatusRaidDebuff:DebuffId(zoneid, 136512, 29, 5, 5) --Hex of Confusion
+GridStatusRaidDebuff:DebuffId(zoneid, 136573, 28, 5, 5) --Frozen Bolt (DebuffId used by frozen orb)
+GridStatusRaidDebuff:DebuffId(zoneid, 136512, 29, 6, 6) --Hex of Confusion
 GridStatusRaidDebuff:DebuffId(zoneid, 136719, 30, 6, 6) --Blazing Sunlight
-GridStatusRaidDebuff:DebuffId(zoneid, 136654, 31, 4, 4) --Rending Charge
+GridStatusRaidDebuff:DebuffId(zoneid, 136654, 31, 6, 6) --Rending Charge (major healing bleed)
 GridStatusRaidDebuff:DebuffId(zoneid, 140946, 32, 4, 4) --Dire Fixation (Heroic Only)
 
 --Council of Elders
@@ -79,23 +100,21 @@ GridStatusRaidDebuff:BossNameId(zoneid, 80, "Durumu")
 GridStatusRaidDebuff:DebuffId(zoneid, 133768, 81, 2, 2) --Arterial Cut (tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 133767, 82, 2, 2, true, true) --Serious Wound (Tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 136932, 83, 6, 6) --Force of Will
-GridStatusRaidDebuff:DebuffId(zoneid, 134122, 84, 6, 6) --Blue Beam Precast (maybe this works?)
-GridStatusRaidDebuff:DebuffId(zoneid, 134123, 85, 6, 6) --Red Beam Precast
-GridStatusRaidDebuff:DebuffId(zoneid, 134124, 86, 6, 6) --Yellow Beam Precast
-GridStatusRaidDebuff:DebuffId(zoneid, 133795, 87, 4, 4) --Life Drain
+GridStatusRaidDebuff:DebuffId(zoneid, 134122, 84, 5, 5) --Blue Beam
+GridStatusRaidDebuff:DebuffId(zoneid, 134123, 85, 5, 5) --Red Beam
+GridStatusRaidDebuff:DebuffId(zoneid, 134124, 86, 5, 5) --Yellow Beam
+GridStatusRaidDebuff:DebuffId(zoneid, 133795, 87, 6, 6) --Life Drain
 GridStatusRaidDebuff:DebuffId(zoneid, 133597, 88, 6, 6) --Dark Parasite
-GridStatusRaidDebuff:DebuffId(zoneid, 133732, 89, 5, 5, true, true) --Infrared Light (the stacking red debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 133677, 90, 5, 5, true, true) --Blue Rays (the stacking blue debuff)  
-GridStatusRaidDebuff:DebuffId(zoneid, 133738, 91, 5, 5, true, true) --Bright Light (the stacking yellow debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 133737, 92, 6, 6) --Bright Light (The one that says you are actually in a beam)
-GridStatusRaidDebuff:DebuffId(zoneid, 133675, 93, 6, 6) --Blue Rays (The one that says you are actually in a beam)
-GridStatusRaidDebuff:DebuffId(zoneid, 134626, 94, 6, 6) --Lingering Gaze
+GridStatusRaidDebuff:DebuffId(zoneid, 133732, 89, 3, 3, true, true) --Infrared Light (the stacking red debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 133677, 90, 3, 3, true, true) --Blue Rays (the stacking blue debuff)  
+GridStatusRaidDebuff:DebuffId(zoneid, 133738, 91, 3, 3, true, true) --Bright Light (the stacking yellow debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 133737, 92, 4, 4) --Bright Light (The one that says you are actually in a beam)
+GridStatusRaidDebuff:DebuffId(zoneid, 133675, 93, 4, 4) --Blue Rays (The one that says you are actually in a beam)
+GridStatusRaidDebuff:DebuffId(zoneid, 134626, 94, 5, 5) --Lingering Gaze
 
 --Primordius
---**Setting indivdual player mutations as low level because its up to them to know when to stop at 5. But as a dispeller I can help a potential tunneler in the raid by knowing)**
---**Players can have all the helpful and harmful mutations at the same time so perhaps a function that checks the highest stack is needed**
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Primordius")
-GridStatusRaidDebuff:DebuffId(zoneid, 140546, 101, 6, 6) --Fully Mutated
+GridStatusRaidDebuff:DebuffId(zoneid, 140546, 101, 5, 5) --Fully Mutated
 GridStatusRaidDebuff:DebuffId(zoneid, 136180, 102, 3, 3, true, true) --Keen Eyesight (Helpful)
 GridStatusRaidDebuff:DebuffId(zoneid, 136181, 103, 4, 4, true, true) --Impared Eyesight (Harmful)
 GridStatusRaidDebuff:DebuffId(zoneid, 136182, 104, 3, 3, true, true) --Improved Synapses (Helpful)
@@ -105,6 +124,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 136185, 107, 4, 4, true, true) --Fragile B
 GridStatusRaidDebuff:DebuffId(zoneid, 136186, 108, 3, 3, true, true) --Clear Mind (Helpful)
 GridStatusRaidDebuff:DebuffId(zoneid, 136187, 109, 4, 4, true, true) --Clouded Mind (Harmful)
 GridStatusRaidDebuff:DebuffId(zoneid, 136050, 110, 2, 2, true, true) --Malformed Blood(Tank Only)
+GridStatusRaidDebuff:DebuffId(zoneid, 136228, 111, 6, 6) --Volatile Pathogen
 
 --Dark Animus
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Dark Animus")
@@ -117,8 +137,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 138480, 126, 6, 6) --Crimson Wake Fixate
 
 --Iron Qon
 GridStatusRaidDebuff:BossNameId(zoneid, 130, "Iron Qon")
-GridStatusRaidDebuff:DebuffId(zoneid, 134647, 131, 5, 5, true, true) --Scorched
-GridStatusRaidDebuff:DebuffId(zoneid, 136193, 132, 6, 6) --Arcing Lightning
+GridStatusRaidDebuff:DebuffId(zoneid, 134647, 131, 6, 6, true, true) --Scorched
+GridStatusRaidDebuff:DebuffId(zoneid, 136193, 132, 5, 5) --Arcing Lightning
 GridStatusRaidDebuff:DebuffId(zoneid, 135147, 133, 2, 2) --Dead Zone
 GridStatusRaidDebuff:DebuffId(zoneid, 134691, 134, 2, 2, true, true) --Impale (tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 135145, 135, 6, 6) --Freeze
@@ -128,6 +148,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 137668, 138, 5, 5, true, true) --Burning C
 GridStatusRaidDebuff:DebuffId(zoneid, 137654, 139, 5, 5) --Rushing Winds 
 GridStatusRaidDebuff:DebuffId(zoneid, 136577, 140, 4, 4) --Wind Storm
 GridStatusRaidDebuff:DebuffId(zoneid, 136192, 141, 4, 4) --Lightning Storm
+GridStatusRaidDebuff:DebuffId(zoneid, 136615, 142, 6, 6) --Electrified
 
 --Twin Consorts
 GridStatusRaidDebuff:BossNameId(zoneid, 150, "Twin Consorts")
@@ -135,7 +156,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 137440, 151, 6, 6) --Icy Shadows
 GridStatusRaidDebuff:DebuffId(zoneid, 137417, 152, 6, 6) --Flames of Passion
 GridStatusRaidDebuff:DebuffId(zoneid, 138306, 153, 5, 5) --Serpent's Vitality
 GridStatusRaidDebuff:DebuffId(zoneid, 137408, 154, 2, 2) --Fan of Flames (tank only)
-GridStatusRaidDebuff:DebuffId(zoneid, 137360, 155, 6, 6) --Corrupted Healing (tanks and healers only?)
+GridStatusRaidDebuff:DebuffId(zoneid, 137360, 155, 6, 6, true, true) --Corrupted Healing (tanks and healers only?)
 GridStatusRaidDebuff:DebuffId(zoneid, 137375, 156, 3, 3) --Beast of Nightmares
 GridStatusRaidDebuff:DebuffId(zoneid, 136722, 157, 6, 6) --Slumber Spores
 
@@ -145,11 +166,11 @@ GridStatusRaidDebuff:DebuffId(zoneid, 135695, 161, 6, 6) --Static Shock
 GridStatusRaidDebuff:DebuffId(zoneid, 136295, 162, 6, 6) --Overcharged
 GridStatusRaidDebuff:DebuffId(zoneid, 135000, 163, 2, 2) --Decapitate (Tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 394514, 164, 5, 5) --Fusion Slash
-GridStatusRaidDebuff:DebuffId(zoneid, 136543, 165, 6, 6) --Ball Lightning
-GridStatusRaidDebuff:DebuffId(zoneid, 134821, 166, 6, 6) --Discharged Energy
+GridStatusRaidDebuff:DebuffId(zoneid, 136543, 165, 5, 5) --Ball Lightning
+GridStatusRaidDebuff:DebuffId(zoneid, 134821, 166, 4, 4) --Discharged Energy
 GridStatusRaidDebuff:DebuffId(zoneid, 136326, 167, 6, 6) --Overcharge
-GridStatusRaidDebuff:DebuffId(zoneid, 137176, 168, 6, 6) --Overloaded Circuits
-GridStatusRaidDebuff:DebuffId(zoneid, 136853, 169, 6, 6) --Lightning Bolt
+GridStatusRaidDebuff:DebuffId(zoneid, 137176, 168, 4, 4) --Overloaded Circuits
+GridStatusRaidDebuff:DebuffId(zoneid, 136853, 169, 4, 4) --Lightning Bolt
 GridStatusRaidDebuff:DebuffId(zoneid, 135153, 170, 6, 6) --Crashing Thunder
 GridStatusRaidDebuff:DebuffId(zoneid, 136914, 171, 2, 2) --Electrical Shock
 GridStatusRaidDebuff:DebuffId(zoneid, 135001, 172, 2, 2) --Maim
