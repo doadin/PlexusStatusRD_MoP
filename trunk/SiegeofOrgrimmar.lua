@@ -100,11 +100,15 @@ GridStatusRaidDebuff:DebuffId(zoneid, 143882, 105, 5, 5) --Hunter's Mark
 
 -- Malkorok
 GridStatusRaidDebuff:BossNameId(zoneid, 110, "Malkorok")
-GridStatusRaidDebuff:DebuffId(zoneid, 142990, 111, 2, 2, true, true) --Fatal Strike (Tank debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 142913, 112, 6, 6) --Displaced Energy (Dispell)
-GridStatusRaidDebuff:DebuffId(zoneid, 143919, 113, 5, 5) --Languish (Heroic)
+GridStatusRaidDebuff:DebuffId(zoneid, 142990, 111, 6, 6, true, true) --Fatal Strike (Tank debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 142913, 112, 5, 5) --Displaced Energy (Dispell)
+GridStatusRaidDebuff:DebuffId(zoneid, 143919, 113, 3, 3) --Languish (Heroic)
+GridStatusRaidDebuff:DebuffId(zoneid, 142861, 114, 2, 2) --Ancient Miasma
+GridStatusRaidDebuff:DebuffId(zoneid, 142863, 115, 4, 4) --Weak Ancient Barrier - Red
+GridStatusRaidDebuff:DebuffId(zoneid, 142864, 116, 4, 4) --Ancient Barrier - Orange
+GridStatusRaidDebuff:DebuffId(zoneid, 142865, 117, 4, 4) --Strong Ancient Barrier - Green
 
--- Malkorok
+-- Spoils of Pandaria
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Spoils of Pandaria")
 GridStatusRaidDebuff:DebuffId(zoneid, 145685, 121, 2, 2) --Unstable Defensive System
 GridStatusRaidDebuff:DebuffId(zoneid, 144853, 122, 3, 3, true, true) --Carnivorous Bite
@@ -179,3 +183,4 @@ GridStatusRaidDebuff:DebuffId(zoneid, 145183, 213, 2, 2, true, true) --Gripping 
 GridStatusRaidDebuff:DebuffId(zoneid, 144762, 214, 4, 4) --Desecrated
 GridStatusRaidDebuff:DebuffId(zoneid, 145071, 215, 5, 5) --Touch of Y'Sharrj
 GridStatusRaidDebuff:DebuffId(zoneid, 148718, 216, 4, 4) --Fire Pit
+
