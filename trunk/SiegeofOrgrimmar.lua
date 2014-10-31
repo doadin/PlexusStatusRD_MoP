@@ -11,6 +11,34 @@ end
 
 --Trash
 
+-- Gates of Orgrimmar
+-- Dragonmaw Bonecrusher
+GridStatusRaidDebuff:DebuffId(zoneid, 147200, 1, 2, 2) -- Fracture (DoT/Stun)
+-- Kor'kron Demolisher
+GridStatusRaidDebuff:DebuffId(zoneid, 148311, 1, 2, 2) -- Bombard (Knocked down)
+-- Lieutenant Krugruk
+GridStatusRaidDebuff:DebuffId(zoneid, 147683, 1, 2, 2) -- Thunder Clap (Magic)
+
+-- Valley of Strength
+-- Mokvar the Treasurer
+GridStatusRaidDebuff:DebuffId(zoneid, 145553, 1, 2, 2) -- Bribe (Mind Control)
+-- Kor'kron Overseer
+GridStatusRaidDebuff:DebuffId(zoneid, 15708, 1, 2, 2) -- Mortal Strike
+-- Kor'kron Shadowmage
+GridStatusRaidDebuff:DebuffId(zoneid, 145551, 1, 2, 2) -- Shadowflame (Magic)
+
+-- Vault of Y'Shaar
+-- Lingering Corruption
+GridStatusRaidDebuff:DebuffId(zoneid, 149207, 1, 2, 2) -- Corrupted Touch (Magic, damage when dispelled)
+
+-- Scarred Vale
+-- Rook Stonetoe
+GridStatusRaidDebuff:DebuffId(zoneid, 144396, 1, 2, 2) -- Vengeful Strikes (DoT/Stun)
+
+-- The Menagerie
+--  Enraged Mushan Beast
+GridStatusRaidDebuff:DebuffId(zoneid, 148136, 1, 2, 2) -- Lacerating Bite
+
 -- Immerseus
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Immerseus")
 GridStatusRaidDebuff:DebuffId(zoneid, 143297, 11, 5, 5) --Sha Splash
@@ -37,18 +65,20 @@ GridStatusRaidDebuff:DebuffId(zoneid, 143423, 30, 6, 6) --Sha Sear
 GridStatusRaidDebuff:DebuffId(zoneid, 143292, 31, 5, 5) --Fixate
 GridStatusRaidDebuff:DebuffId(zoneid, 144176, 32, 5, 5, true, true) --Shadow Weakness
 GridStatusRaidDebuff:DebuffId(zoneid, 147383, 33, 4, 4) --Debilitation (Heroic Only)
+GridStatusRaidDebuff:DebuffId(zoneid, 143198, 34, 2, 2) --Garrote
 
 -- Norushen
-GridStatusRaidDebuff:BossNameId(zoneid, 40, "Norushen")
-GridStatusRaidDebuff:DebuffId(zoneid, 146124, 41, 2, 2, true, true) --Self Doubt (tanks)
-GridStatusRaidDebuff:DebuffId(zoneid, 146324, 42, 4, 4, true, true) --Jealousy
-GridStatusRaidDebuff:DebuffId(zoneid, 144639, 43, 6, 6) --Corruption
-GridStatusRaidDebuff:DebuffId(zoneid, 144850, 44, 5, 5) --Test of Reliance
-GridStatusRaidDebuff:DebuffId(zoneid, 145861, 45, 6, 6) --Self-Absorbed (Dispell)
-GridStatusRaidDebuff:DebuffId(zoneid, 144851, 46, 2, 2) --Test of Confiidence (tanks)
-GridStatusRaidDebuff:DebuffId(zoneid, 146703, 47, 3, 3) --Bottomless Pit
-GridStatusRaidDebuff:DebuffId(zoneid, 144514, 48, 6, 6) --Lingering Corruption
-GridStatusRaidDebuff:DebuffId(zoneid, 144849, 49, 4, 4) --Test of Serenity
+GridStatusRaidDebuff:BossNameId(zoneid, 35, "Norushen")
+GridStatusRaidDebuff:DebuffId(zoneid, 146124, 36, 2, 2, true, true) --Self Doubt (tanks)
+GridStatusRaidDebuff:DebuffId(zoneid, 146324, 37, 4, 4, true, true) --Jealousy
+GridStatusRaidDebuff:DebuffId(zoneid, 144639, 38, 6, 6) --Corruption
+GridStatusRaidDebuff:DebuffId(zoneid, 144850, 39, 5, 5) --Test of Reliance
+GridStatusRaidDebuff:DebuffId(zoneid, 145861, 40, 6, 6) --Self-Absorbed (Dispell)
+GridStatusRaidDebuff:DebuffId(zoneid, 144851, 41, 2, 2) --Test of Confiidence (tanks)
+GridStatusRaidDebuff:DebuffId(zoneid, 146703, 42, 3, 3) --Bottomless Pit
+GridStatusRaidDebuff:DebuffId(zoneid, 144514, 43, 6, 6) --Lingering Corruption
+GridStatusRaidDebuff:DebuffId(zoneid, 144849, 44, 4, 4) --Test of Serenity
+GridStatusRaidDebuff:DebuffId(zoneid, 145725, 45, 3, 3) --Despair
 
 -- Sha of Pride
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Sha of Pride")
@@ -73,6 +103,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 70, "Galakras")
 GridStatusRaidDebuff:DebuffId(zoneid, 146765, 71, 5, 5) --Flame Arrows
 GridStatusRaidDebuff:DebuffId(zoneid, 147705, 72, 5, 5) --Poison Cloud
 GridStatusRaidDebuff:DebuffId(zoneid, 146902, 73, 2, 2) --Poison Tipped blades
+GridStatusRaidDebuff:DebuffId(zoneid, 147068, 74, 2, 2) --Flames of Galakrond
 
 -- Iron Juggernaut
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Iron Juggernaut")
@@ -135,6 +166,10 @@ GridStatusRaidDebuff:DebuffId(zoneid, 143777, 147, 3, 3) --Frozen Solid (tanks)
 GridStatusRaidDebuff:DebuffId(zoneid, 143780, 148, 4, 4, true, true) --Acid Breath
 GridStatusRaidDebuff:DebuffId(zoneid, 143800, 149, 5, 5, true, true) --Icy Blood
 GridStatusRaidDebuff:DebuffId(zoneid, 143428, 150, 4, 4) --Tail Lash
+GridStatusRaidDebuff:DebuffId(zoneid, 143784, 151, 2, 2) --Burning Blood
+GridStatusRaidDebuff:DebuffId(zoneid, 143767, 152, 1, 1) --Scorching Breath
+-- This is good, don't need to show it
+GridStatusRaidDebuff:DebuffId(zoneid, 144115, 153, 1, 1, false, false, 0, true) --Flame Coating
 
 -- Siegecrafter Blackfuse
 GridStatusRaidDebuff:BossNameId(zoneid, 160, "Siegecrafter Blackfuse")

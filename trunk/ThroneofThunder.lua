@@ -10,27 +10,86 @@ end
 --true, true is for stackable
 
 --Trash
+-- Jin'rokh the Breaker
+-- Zandalari Storm-Caller
+GridStatusRaidDebuff:DebuffId(zoneid, 139322, 1, 2, 2) -- Storm Energy
+-- Zandalari Water-Binder
+GridStatusRaidDebuff:DebuffId(zoneid, 136952, 1, 1, 1) -- Frostbolt (slow)
+-- Zandalari Spear-Shaper
+GridStatusRaidDebuff:DebuffId(zoneid, 137072, 1, 3, 3) -- Retrieve Spear (stun)
+-- Zandalari Blade Initiate
+GridStatusRaidDebuff:DebuffId(zoneid, 140049, 1, 2, 2) -- Wounding Strike
+
 -- Horridon
 -- Stormbringer Draz'kil
 GridStatusRaidDebuff:DebuffId(zoneid, 139900, 1, 1, 1) --Stormcloud
 -- Tormented Spirit
 GridStatusRaidDebuff:DebuffId(zoneid, 139550, 1, 1, 1, true, true) --Torment
+-- Soul-Fed Construct
+GridStatusRaidDebuff:DebuffId(zoneid, 33661, 1, 1, 1, true, true) --Crush Armor
+
 -- Horridon & Council of Elders
 -- Ancient Python
 GridStatusRaidDebuff:DebuffId(zoneid, 139888, 1, 1, 1, true, true) --Ancient Venom
+-- Drakkari Frost Warden
+GridStatusRaidDebuff:DebuffId(zoneid, 138687, 1, 6, 6) --Glacial Freeze (Magic, stun)
+
+-- Council of Elders
+-- Zandalari Prelate
+GridStatusRaidDebuff:DebuffId(zoneid, 139213, 1, 6, 6) -- Mark of the Loa (Magic)
+-- Farraki Sand Conjurer
+GridStatusRaidDebuff:DebuffId(zoneid, 138742, 1, 7, 7) -- Choking Sands (Magic, silence/pacify)
+-- Zandalari Prophet
+-- GridStatusRaidDebuff:DebuffId(zoneid, 139205, 1, 6, 6) -- Visions of Grandeur (Magic)
+GridStatusRaidDebuff:DebuffId(zoneid, 140400, 1, 6, 6) -- Mark of the Prophet (Magic)
+-- Gurubashi Berserker
+GridStatusRaidDebuff:DebuffId(zoneid, 138693, 1, 1, 1) --Bloodletting
+
 -- Tortos
 -- Greater Cave Bat
 GridStatusRaidDebuff:DebuffId(zoneid, 136751, 1, 1, 1) --Sonic Screech
 GridStatusRaidDebuff:DebuffId(zoneid, 136753, 1, 1, 1, true, true) --Slashing Talons
+
 -- Magaera
 -- Mist Lurker
 GridStatusRaidDebuff:DebuffId(zoneid, 140686, 1, 1, 1) --Corrosive Breath
 GridStatusRaidDebuff:DebuffId(zoneid, 140682, 1, 1, 1) --Chokin Mists
 -- Shale Spider
 GridStatusRaidDebuff:DebuffId(zoneid, 140616, 1, 1, 1) --Shale Shards
+-- Eternal Guardian
+GridStatusRaidDebuff:DebuffId(zoneid, 140629, 1, 6, 6) --Eternal Prison (Magic)
+-- Fungal Growth
+GridStatusRaidDebuff:DebuffId(zoneid, 140620, 1, 6, 6) --Fungal Spores (Magic)
+
+-- Ji-Kun
+-- Gastropod
+GridStatusRaidDebuff:DebuffId(zoneid, 134415, 1, 1, 1) --Devoured (stun)
+
+-- Durumu the Forgotten
+-- Roaming Fog
+GridStatusRaidDebuff:DebuffId(zoneid, 134668, 1, 1, 1) --Gnawed Upon
+
 -- Dark Animus
 -- Archritualist Kelada
 GridStatusRaidDebuff:DebuffId(zoneid, 139356, 1, 1, 1) --Extermination Beam
+-- Ritual Guard
+GridStatusRaidDebuff:DebuffId(zoneid, 139215, 1, 1, 1) --Shockwave (stun)
+
+-- Iron Qon
+-- Skittering Spiderling
+GridStatusRaidDebuff:DebuffId(zoneid, 139310, 1, 6, 6) --Foul Venom (Disease)
+-- Untrained Quilen
+GridStatusRaidDebuff:DebuffId(zoneid, 122962, 1, 2, 2) --Carnivorous Bite
+-- Putrid Waste
+GridStatusRaidDebuff:DebuffId(zoneid, 139317, 1, 1, 1) --Putrify
+-- Rotting Scavenger
+GridStatusRaidDebuff:DebuffId(zoneid, 139314, 1, 6, 6) --Infected Bite (Disease)
+
+-- Lei Shen
+-- Lightning Guardian
+GridStatusRaidDebuff:DebuffId(zoneid, 138196, 1, 6, 6) --Lightning Burst (Magic)
+
+-- Bosses
 
 -- Jin'rokh the Breaker
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Jin'rokh the Breaker")
@@ -66,14 +125,15 @@ GridStatusRaidDebuff:DebuffId(zoneid, 137650, 46, 5, 5, true, true) --Shadowed S
 GridStatusRaidDebuff:DebuffId(zoneid, 137359, 47, 6, 6) --Shadowed Loa Spirit fixate target
 GridStatusRaidDebuff:DebuffId(zoneid, 137972, 48, 6, 6) --Twisted Fate (Heroic only)
 GridStatusRaidDebuff:DebuffId(zoneid, 136860, 49, 5, 5) --Quicksand
+GridStatusRaidDebuff:DebuffId(zoneid, 136860, 50, 2, 2) --Frigid Assault (stun)
 
 --Tortos
-GridStatusRaidDebuff:BossNameId(zoneid, 50, "Tortos")
-GridStatusRaidDebuff:DebuffId(zoneid, 134030, 51, 6, 6) --Kick Shell
-GridStatusRaidDebuff:DebuffId(zoneid, 134920, 52, 6, 6) --Quake Stomp
-GridStatusRaidDebuff:DebuffId(zoneid, 136751, 53, 6, 6) --Sonic Screech
-GridStatusRaidDebuff:DebuffId(zoneid, 136753, 54, 2, 2) --Slashing Talons (tank only)
-GridStatusRaidDebuff:DebuffId(zoneid, 137633, 55, 5, 5) --Crystal Shell (heroic only)
+GridStatusRaidDebuff:BossNameId(zoneid, 51, "Tortos")
+GridStatusRaidDebuff:DebuffId(zoneid, 134030, 52, 6, 6) --Kick Shell
+GridStatusRaidDebuff:DebuffId(zoneid, 134920, 53, 6, 6) --Quake Stomp
+GridStatusRaidDebuff:DebuffId(zoneid, 136751, 54, 6, 6) --Sonic Screech
+GridStatusRaidDebuff:DebuffId(zoneid, 136753, 55, 2, 2) --Slashing Talons (tank only)
+GridStatusRaidDebuff:DebuffId(zoneid, 137633, 56, 5, 5) --Crystal Shell (heroic only)
 
 --Megaera
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Megaera")
@@ -90,14 +150,18 @@ GridStatusRaidDebuff:DebuffId(zoneid, 140179, 69, 6, 6) --Suppression (stun)
 
 --Ji-Kun
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "Ji-Kun")
-GridStatusRaidDebuff:DebuffId(zoneid, 138309, 71, 4, 4, true, true) --Slimed
-GridStatusRaidDebuff:DebuffId(zoneid, 138319, 72, 5, 5) --Feed Pool
-GridStatusRaidDebuff:DebuffId(zoneid, 140571, 73, 3, 3) --Feed Pool
-GridStatusRaidDebuff:DebuffId(zoneid, 134372, 73, 3, 3) --Screech
+GridStatusRaidDebuff:DebuffId(zoneid, 140092, 71, 2, 2, true, true) --Infected Talons (tank)
+GridStatusRaidDebuff:DebuffId(zoneid, 140092, 72, 2, 2, true, true) --Talon Rake (tank)
+GridStatusRaidDebuff:DebuffId(zoneid, 138309, 73, 4, 4, true, true) --Slimed
+GridStatusRaidDebuff:DebuffId(zoneid, 138319, 74, 5, 5) --Feed Pool
+GridStatusRaidDebuff:DebuffId(zoneid, 140571, 75, 3, 3) --Feed Pool
+GridStatusRaidDebuff:DebuffId(zoneid, 134372, 76, 3, 3) --Screech
+-- This is good, don't need to show it
+GridStatusRaidDebuff:DebuffId(zoneid, 140014, 77, 1, 1, false, false, 0, true) --Daedalian Wings
 
 --Durumu the Forgotten
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Durumu")
-GridStatusRaidDebuff:DebuffId(zoneid, 133768, 81, 2, 2) --Arterial Cut (tank only)
+GridStatusRaidDebuff:DebuffId(zoneid, 133768, 81, 3, 3) --Arterial Cut (tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 133767, 82, 2, 2, true, true) --Serious Wound (Tank only)
 GridStatusRaidDebuff:DebuffId(zoneid, 136932, 83, 6, 6) --Force of Will
 GridStatusRaidDebuff:DebuffId(zoneid, 134122, 84, 5, 5) --Blue Beam
@@ -165,7 +229,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 160, "Lei Shen")
 GridStatusRaidDebuff:DebuffId(zoneid, 135695, 161, 6, 6) --Static Shock
 GridStatusRaidDebuff:DebuffId(zoneid, 136295, 162, 6, 6) --Overcharged
 GridStatusRaidDebuff:DebuffId(zoneid, 135000, 163, 2, 2) --Decapitate (Tank only)
-GridStatusRaidDebuff:DebuffId(zoneid, 394514, 164, 5, 5) --Fusion Slash
+GridStatusRaidDebuff:DebuffId(zoneid, 136478, 164, 5, 5) --Fusion Slash
 GridStatusRaidDebuff:DebuffId(zoneid, 136543, 165, 5, 5) --Ball Lightning
 GridStatusRaidDebuff:DebuffId(zoneid, 134821, 166, 4, 4) --Discharged Energy
 GridStatusRaidDebuff:DebuffId(zoneid, 136326, 167, 6, 6) --Overcharge
