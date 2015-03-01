@@ -1,8 +1,8 @@
-## Interface: 60000
+## Interface: 60100
 ## Title: GridStatusRaidDebuff(MoP)
 ## Notes: Debuff List for MoP
 ## Author: Evilsithgirl (Reckoning-Mannoroth-US)
-## Version: 6.0
+## Version: 6.1
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
