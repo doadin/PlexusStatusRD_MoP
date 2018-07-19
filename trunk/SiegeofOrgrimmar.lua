@@ -1,5 +1,5 @@
 --local zone = "Siege of Orgrimmar"
-local zoneid = 953
+local zoneid = 557
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then

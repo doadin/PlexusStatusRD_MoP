@@ -1,5 +1,5 @@
 --local zone = "Throne of Thunder"
-local zoneid = 930
+local zoneid = 508
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then

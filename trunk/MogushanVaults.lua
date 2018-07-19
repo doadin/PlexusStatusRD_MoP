@@ -1,5 +1,5 @@
 --local zone = "Mogu'shan Vaults"
-local zoneid = 896
+local zoneid = 471
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then

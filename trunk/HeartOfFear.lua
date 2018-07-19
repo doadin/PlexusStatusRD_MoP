@@ -1,5 +1,5 @@
 --local zone = "Heart of Fear"
-local zoneid = 897
+local zoneid = 474
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then

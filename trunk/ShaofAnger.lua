@@ -1,5 +1,5 @@
 -- local zone = "Kun-Lai Summit"
-local zoneid = 809
+local zoneid = 379
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then
