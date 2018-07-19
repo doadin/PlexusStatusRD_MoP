@@ -1,5 +1,5 @@
 -- local zone = "Terrace of Endless Spring"
-local zoneid = 886
+local zoneid = 456
 
 -- Check Compatibility
 if GridStatusRD_MoP.rd_version < 502 then
