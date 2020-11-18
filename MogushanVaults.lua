@@ -1,11 +1,6 @@
 --local zone = "Mogu'shan Vaults"
 local zoneid = 471
 
--- Check Compatibility
-if GridStatusRD_MoP.rd_version < 502 then
-	return
-end
-
 -- zoneid, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 --true, true is for stackable
 
