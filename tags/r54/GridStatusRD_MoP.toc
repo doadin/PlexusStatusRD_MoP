@@ -1,0 +1,15 @@
+## Interface: 90002
+## Title: GridStatusRaidDebuff(MoP)
+## Notes: Debuff List for MoP
+## Author: Doadin
+## Version: 9.0.0.0
+## Grid Author: Pastamancer & Maia
+## Dependencies: PlexusStatusRaidDebuff
+## OptionalDeps: Grid, Plexus
+
+MogushanVaults.lua
+HeartOfFear.lua
+ShaofAnger.lua
+TerraceofEndlessSpring.lua
+ThroneofThunder.lua
+SiegeofOrgrimmar.lua
