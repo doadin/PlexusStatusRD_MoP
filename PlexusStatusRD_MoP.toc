@@ -1,11 +1,17 @@
+#@retail@
 ## Interface: 90002
-## Title: GridStatusRaidDebuff(MoP)
+#@end-retail@
+#@non-retail@
+## Interface: 11305
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusStatusRaidDebuff(MoP)
 ## Notes: Debuff List for MoP
 ## Author: Doadin
-## Version: 9.0.0.0
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: PlexusStatusRaidDebuff
 ## OptionalDeps: Grid, Plexus
+## X-Curse-Project-ID: 43401
 
 MogushanVaults.lua
 HeartOfFear.lua

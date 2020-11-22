@@ -1,6 +1,4 @@
-package-as: GridStatusRD_MoP
-
-license-output: GPL.txt
+package-as: PlexusStatusRD_MoP
 
 ignore:
  - .pkgmeta
