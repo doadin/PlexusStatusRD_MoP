@@ -1,5 +1,9 @@
 --local zone = "Mogu'shan Vaults"
 local zoneid = 471
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- zoneid, debuffID, order, icon_priority, color_priority, timer, stackable, color, default_disable, noicon
 --true, true is for stackable

@@ -15,9 +15,9 @@
 
 ## IconTexture: Interface\AddOns\Plexus\Media\icon
 
-MogushanVaults.lua
-HeartOfFear.lua
-ShaofAnger.lua
-TerraceofEndlessSpring.lua
-ThroneofThunder.lua
-SiegeofOrgrimmar.lua
+MogushanVaults.lua [AllowLoadGameType Mists, standard]
+HeartOfFear.lua [AllowLoadGameType Mists, standard]
+ShaofAnger.lua [AllowLoadGameType Mists, standard]
+TerraceofEndlessSpring.lua [AllowLoadGameType Mists, standard]
+ThroneofThunder.lua [AllowLoadGameType Mists, standard]
+SiegeofOrgrimmar.lua [AllowLoadGameType Mists, standard]
